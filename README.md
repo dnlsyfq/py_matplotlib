@@ -16,3 +16,14 @@ plt.plot(arr,arr)
 ```
 plt.scatter(arr,arr)
 ```
+
+### histogram
+```
+plt.hist(arr,bins=int)
+```
+
+### Reduce Scale
+```
+plt.scatter(x,y)
+plt.xscale('log')
+```
