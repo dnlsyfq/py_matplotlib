@@ -1,5 +1,6 @@
 
 # Matplotlib
+plt.show() displays a plot; plt.clf() cleans it up again so you can start afresh.
 
 ### import
 ```
@@ -26,4 +27,16 @@ plt.hist(arr,bins=int)
 ```
 plt.scatter(x,y)
 plt.xscale('log')
+```
+
+### axis labels
+```
+plt.xlabel('')
+plt.ylabel('')
+plt.title('')
+```
+
+### ticks
+```
+plt.yticks([0,2,4,6,8,10],['0B','2B','4B','6B','8B','10B'])
 ```
