@@ -61,3 +61,8 @@ plt.text(5700, 80, 'China')
 # Add grid() call
 plt.grid(True)
 ```
+
+### Plot on same figure 
+```
+
+```
