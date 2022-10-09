@@ -22,6 +22,7 @@ plt.scatter(gdp_cap, life_exp, s = np_pop, c = [])
 ### histogram
 ```
 plt.hist(arr,bins=int)
+plt.hist(agecon, bins=20, histtype='step')
 ```
 
 ### Reduce Scale
