@@ -8,6 +8,11 @@ import matplotlib.pyplot as plt
 from matplotlib import pyplot as plt
 ```
 
+### remove scientific notation
+```
+plt.ticklabel_format(axis='y', style='plain') // 'sci', 'scientific', and 'plain'.
+```
+
 ### line chart
 ```
 plt.plot(arr,arr)
