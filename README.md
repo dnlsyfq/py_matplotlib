@@ -1,6 +1,19 @@
 
 # Matplotlib
-plt.show() displays a plot; plt.clf() cleans it up again so you can start afresh.
+```
+plt.show() //displays a plot;
+plt.clf() //cleans it up again so you can start afresh.
+plt.plot() // Line chart , shows continuous change, often used to measure change over time
+plt.scatter() // Scatter plot ,  uses position to show the relationship, or correlation, between two numeric values
+plt.bar() // Bar chart, uses bar height to compare a measure between categorical variables
+plt.pie() // Pie chart, shows us the breakdown of a whole into its parts
+plt.hist() // Histogram, shows how one kind of data is distributed
+
+Add a legend	plt.legend()
+Add axis labels	plt.ylabel(), plt.xlabel()
+Adjust axes	plt.xscale(), plt.yticks()
+Print graph	plt.show()
+```
 
 ### import
 ```
