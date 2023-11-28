@@ -29,6 +29,7 @@ plt.ticklabel_format(axis='y', style='plain') // 'sci', 'scientific', and 'plain
 ### line chart
 ```
 plt.plot(arr,arr)
+plt.plot(x,y,color='',linewidth='',linestyle='')
 ```
 
 ### scatter plot
