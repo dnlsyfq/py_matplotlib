@@ -37,6 +37,11 @@ plt.scatter(arr,arr)
 plt.scatter(gdp_cap, life_exp, s = np_pop, c = [])
 ```
 
+**pie**
+```
+
+```
+
 ### histogram
 ```
 plt.hist(arr,bins=intlabel='')
