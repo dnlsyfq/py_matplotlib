@@ -1,4 +1,14 @@
 
+# pylot interface
+```
+import matplotlib.pyplot as plt
+fig, ax = plt.subplots()
+
+ax.plot(x,y)
+ax.plot(a,b)
+plt.show()
+```
+
 # Matplotlib
 ```
 plt.show() //displays a plot;
