@@ -40,7 +40,7 @@ plt.scatter(gdp_cap, life_exp, s = np_pop, c = [])
 
 **pie**
 ```
-
+df.plot.pie(autopct='%.1f%%')
 ```
 
 ### histogram
