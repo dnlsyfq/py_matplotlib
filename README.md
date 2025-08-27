@@ -151,3 +151,17 @@ plt.savefig('my_lineplot.png', dpi=128, bbox_inches='tight')
 ```
 
 ```
+
+### Matplotlib
+```
+import matplotlib.pyplot as plt
+
+plt.scatter(x,y) // to assess if there's a correlation between two variables 
+plt.plot(x,y) // time scale along the horizontal axis
+
+
+# Put the x-axis on a logarithmic scale
+plt.xscale('log') // A correlation will become clear when you display the GDP per capita on a logarithmic scale.
+
+plt.show()
+```
