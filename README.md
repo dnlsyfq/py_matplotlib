@@ -165,3 +165,13 @@ plt.xscale('log') // A correlation will become clear when you display the GDP pe
 
 plt.show()
 ```
+
+* histogram
+```
+* show distribution
+* bins
+* bins width
+
+plt.hist(x,bins=10) // 10 default
+
+```
