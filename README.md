@@ -174,4 +174,6 @@ plt.show()
 
 plt.hist(x,bins=10) // 10 default
 
+
+Too few bins will oversimplify reality and won't show you the details. Too many bins will overcomplicate reality and won't show the bigger picture.
 ```
