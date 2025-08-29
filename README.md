@@ -192,4 +192,10 @@ plt.yticks(
 )
 
 
+# Definition of tick_val and tick_lab
+tick_val = [1000, 10000, 100000]
+tick_lab = ['1k', '10k', '100k']
+
+# Adapt the ticks on the x-axis
+plt.xticks(tick_val,tick_lab)
 ```
