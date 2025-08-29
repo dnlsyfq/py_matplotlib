@@ -177,3 +177,19 @@ plt.hist(x,bins=10) // 10 default
 
 Too few bins will oversimplify reality and won't show you the details. Too many bins will overcomplicate reality and won't show the bigger picture.
 ```
+
+* customization
+```
+
+plt.plot(x,y)
+plt.xlabel(str)
+plt.ylabel(str)
+plt.title(str)
+
+plt.yticks(
+  [0,2,4,6,8,10], // bins the y values within range
+  ['0B','2B','4B','6B','8B','10B'] // new Y label 
+)
+
+
+```
