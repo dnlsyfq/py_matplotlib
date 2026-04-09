@@ -2,6 +2,14 @@
 # pylot interface
 ```
 import matplotlib.pyplot as plt
+
+
+
+
+
+
+
+
 fig, ax = plt.subplots()
 
 ax.plot(x,y)
@@ -29,6 +37,16 @@ Add axis labels	plt.ylabel(), plt.xlabel()
 Adjust axes	plt.xscale(), plt.yticks()
 Print graph	plt.show()
 ```
+
+```
+plt.plot(x,y)
+plt.ticklabel_format(axis='x|y|both',style='sci|scientific|plain') // set label format
+plt.xlabel(' ') // set label for x 
+plt.ylabel(' ') // set label for y 
+
+```
+
+
 
 ### import
 ```
