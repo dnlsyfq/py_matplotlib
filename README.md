@@ -63,6 +63,13 @@ plt.ticklabel_format(axis='y', style='plain') // 'sci', 'scientific', and 'plain
 ```
 plt.plot(arr,arr)
 plt.plot(x,y,color='',linewidth='',linestyle='')
+
+plt.plot(france['Date_reported'], france['Cumulative_cases'],
+         label='France')
+plt.plot(uk['Date_reported'], uk['Cumulative_cases'],
+         label='The UK')
+
+
 ```
 
 ### scatter plot
