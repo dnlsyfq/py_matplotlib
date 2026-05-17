@@ -29,6 +29,7 @@ plt.scatter() // Scatter plot ,  uses position to show the relationship, or corr
 plt.bar() // Bar chart, uses bar height to compare a measure between categorical variables
 plt.pie() // Pie chart, shows us the breakdown of a whole into its parts
 plt.hist() // Histogram, shows how one kind of data is distributed
+plt.xticks(rotation=45)
 plt.barh()
 
 
